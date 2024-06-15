@@ -127,3 +127,20 @@ button:active{
     overflow: hidden;
     /* filter: blur(5px); */
 }
+
+@media (max-width: 480px) {
+    .calc {
+        padding: 5px;
+        font-size: 14px;
+    }
+    
+    input {
+        font-size: 10vw;
+    }
+    
+    button {
+        width: 30%;
+        height: 20vw;
+        font-size: 8vw;
+    }
+}
