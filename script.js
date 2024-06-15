@@ -109,6 +109,9 @@ function cursor(){
     });
     
 };
+document.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+}, { passive: false });
 animations();
 calculator();
 cursor();
