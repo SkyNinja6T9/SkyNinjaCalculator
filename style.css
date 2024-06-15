@@ -127,3 +127,53 @@ button:active{
     overflow: hidden;
     /* filter: blur(5px); */
 }
+@media (max-width: 1000px) {
+    .calc {
+        width:50vw;
+        padding: 15px;
+    }
+    input {
+        font-size: 8vw;
+    }
+     button {
+        width: 18vw;
+        height: 8vh;
+        font-size: 5vw;
+        margin: 8px;
+    }
+}
+@media (max-width: 768px) {
+    .calc {
+        width:75vw;
+        padding: 15px;
+    }
+    
+    input {
+        font-size: 8vw;
+    }
+    
+    button {
+        width: 18vw; 
+        height: 8vh;
+        font-size: 5vw;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .calc {
+        width:90vw;
+        padding: 10px;
+    }
+    
+    input {
+        font-size: 7vw;
+    }
+    
+    button {
+        width: 35%; 
+        height: 15vw;
+        font-size: 6vw; 
+        margin: 5px;
+    }
+}
